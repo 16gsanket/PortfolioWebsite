@@ -36,7 +36,7 @@ export const navLinks = [
       position: 'CTO Smacoteq, Co-Founder KGT',
       img: 'assets/nigam.png',
       review:
-        '.',
+        "Sanket is a quick learner with a positive attitude and a strong problem-solving mindset. In just nine months, he mastered React.js and TypeScript, taking ownership of UI development for our website and platform. He also contributed to solution design by assisting with UML diagrams. His dedication and eagerness to take on challenges make him a valuable asset to any team.",
     },
     // {
     //   id: 3,

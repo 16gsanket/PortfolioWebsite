@@ -126,23 +126,23 @@
 
 // export default Hero;
 
-import { Leva } from 'leva';
-import { Suspense } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { useMediaQuery } from 'react-responsive';
-import { PerspectiveCamera } from '@react-three/drei';
+import { Leva } from "leva";
+import { Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
+import { useMediaQuery } from "react-responsive";
+import { PerspectiveCamera } from "@react-three/drei";
 
-import Cube from '../component/Cube.jsx';
-import Rings from '../component/Rings.jsx';
-import ReactLogo from '../component/ReactLogo.jsx';
-import Button from '../component/Button.jsx';
-import Target from '../component/Target.jsx';
-import CanvasLoader from '../component/CanvasLoader.jsx';
-import HeroCamera from '../component/HeroCamera.jsx';
-import { calculateSizes } from '../constants/index.js';
-import HackerRoom  from '../component/HackerRoom.jsx';
+import Cube from "../component/Cube.jsx";
+import Rings from "../component/Rings.jsx";
+import ReactLogo from "../component/ReactLogo.jsx";
+import Button from "../component/Button.jsx";
+import Target from "../component/Target.jsx";
+import CanvasLoader from "../component/CanvasLoader.jsx";
+import HeroCamera from "../component/HeroCamera.jsx";
+import { calculateSizes } from "../constants/index.js";
+import HackerRoom from "../component/HackerRoom.jsx";
 
- const Hero = () => {
+const Hero = () => {
   // Use media queries to determine screen size
   const isSmall = useMediaQuery({ maxWidth: 440 });
   const isMobile = useMediaQuery({ maxWidth: 768 });
@@ -156,7 +156,9 @@ import HackerRoom  from '../component/HackerRoom.jsx';
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
           Hi, I am Sanket <span className="waving-hand">👋</span>
         </p>
-        <p className="hero_tag text-gray_gradient">Building Products & Brands</p>
+        <p className="hero_tag text-gray_gradient">
+          Building Products & Brands
+        </p>
       </div>
 
       <div className="w-full h-full absolute inset-0">
@@ -167,13 +169,17 @@ import HackerRoom  from '../component/HackerRoom.jsx';
             <PerspectiveCamera makeDefault position={[0, 0, 30]} />
 
             <HeroCamera isMobile={isMobile}>
-              <HackerRoom scale={sizes.deskScale} position={sizes.deskPosition} rotation={[0.1, -Math.PI, 0]} />
+              <HackerRoom
+                scale={sizes.deskScale}
+                position={sizes.deskPosition}
+                rotation={[0.1, -Math.PI, 0]}
+              />
             </HeroCamera>
 
             <group>
               <Target position={sizes.targetPosition} />
               <ReactLogo position={sizes.reactLogoPosition} />
-              <Rings position={!isMobile ? sizes.ringPosition : [-4,8,0]} />
+              <Rings position={!isMobile ? sizes.ringPosition : [-4, 8, 0]} />
               <Cube position={sizes.cubePosition} />
             </group>
 
@@ -185,7 +191,11 @@ import HackerRoom  from '../component/HackerRoom.jsx';
 
       <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
         <a href="#about" className="w-fit">
-          <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
+          <Button
+            name="Let's work together"
+            isBeam
+            containerClass="sm:w-fit w-full sm:min-w-96"
+          />
         </a>
       </div>
     </section>
