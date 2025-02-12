@@ -99,7 +99,7 @@ export const navLinks = [
       desc: 'Hotel Booking App is a web application that allows internal users to search and book hotel Rooms. It features  a smooth scrolling experience, and a layout that updates in real-time.',
       subdesc:
         'React, Supabase, Suspense, TailwindCSS, React Query The Wild Oasis is a complete solution that brings your hotel booking experience to life. It can be used as a standalone app or as part of a larger web project.',
-      href: 'https://the-wild-oasis-ashen-alpha.vercel.app/dashboard',
+      href: 'https://the-wild-oasis-v2-wheat.vercel.app/bookings',
       texture: '/textures/project/wildos.mp4',
       logo: '/assets/logo-light.png',
       logoStyle: {
