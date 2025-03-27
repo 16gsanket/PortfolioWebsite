@@ -207,43 +207,80 @@ export const navLinks = [
         },
       ],
     },
-    // {
-    //   title: 'Imaginify - AI Photo Manipulation App',
-    //   desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    //   subdesc:
-    //     'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    //   href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    //   texture: '/textures/project/project5.mp4',
-    //   logo: '/assets/project-logo5.png',
-    //   logoStyle: {
-    //     backgroundColor: '#1C1A43',
-    //     border: '0.2px solid #252262',
-    //     boxShadow: '0px 0px 60px 0px #635BFF4D',
-    //   },
-    //   spotlight: '/assets/spotlight5.png',
-    //   tags: [
-    //     {
-    //       id: 1,
-    //       name: 'React.js',
-    //       path: '/assets/react.svg',
-    //     },
-    //     {
-    //       id: 2,
-    //       name: 'TailwindCSS',
-    //       path: 'assets/tailwindcss.png',
-    //     },
-    //     {
-    //       id: 3,
-    //       name: 'TypeScript',
-    //       path: '/assets/typescript.png',
-    //     },
-    //     {
-    //       id: 4,
-    //       name: 'Framer Motion',
-    //       path: '/assets/framer.png',
-    //     },
-    //   ],
-    // },
+    {
+      title: 'Resume Coach AI',
+      desc: 'Designed and developed a secure, scalable AI app with Node.js, React, MongoDB, Express enabling users to upload resumes and receive AI-generated career feedback. • Integrated AWS Textract resume text extraction and AWS S3',
+      subdesc:
+        'Implemented JWT authentication and Google OAuth using Passport.js, along with a chatinterface for real-time AI-powered career coaching and doubt resolution.',
+      href: 'https://resume-analyser-rouge.vercel.app/',
+      texture: '/textures/project/resume-AI.mp4',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT68qCVte7kY0bWK41UQSv8iBt_HgYNq-BXZA&s',
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spotlight: '/assets/spotlight5.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'OAuth2.0',
+          path: 'https://res.cloudinary.com/ddodvrq4x/image/upload/v1743069535/portfolio/assets/OAuthLogo.png',
+        },
+        {
+          id: 4,
+          name: 'AWS',
+          path: 'https://res.cloudinary.com/ddodvrq4x/image/upload/v1743069734/portfolio/assets/AWS%29Logo.avif',
+        },
+      ],
+    },
+    {
+      title: 'Wild Oasis User',
+      desc: 'This is a application built for the user side, used for viewing the cabins, booking cabins and also to view the cabins that have been booked by the user.',
+      subdesc:
+        'Developed with Next.JS , AuthNext.JS and TailwindCSS, using the SSR and SSG methods to optimize the webapp and also leveraged the power of aggresive chaching of the NextJS framework.',
+      href: 'https://resume-analyser-rouge.vercel.app/',
+      texture: '/textures/project/wild-user.mp4',
+      logo: 'https://res.cloudinary.com/ddodvrq4x/image/upload/v1743070899/portfolio/assets/logo.png',
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spotlight: '/assets/spotlight5.png',
+      tags: [
+        {
+          id: 1,
+          name: 'Next.js',
+          path: 'https://res.cloudinary.com/ddodvrq4x/image/upload/v1743071032/portfolio/assets/NextLogo.jpg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'Next Auth',
+          path: 'https://res.cloudinary.com/ddodvrq4x/image/upload/v1743070526/portfolio/assets/nextAuthLogo.png',
+        },
+        {
+          id: 4,
+          name: 'AWS',
+          path: 'https://res.cloudinary.com/ddodvrq4x/image/upload/v1743069734/portfolio/assets/AWS%29Logo.avif',
+        },
+      ],
+    },
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
