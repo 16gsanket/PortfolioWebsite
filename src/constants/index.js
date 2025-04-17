@@ -249,7 +249,7 @@ export const navLinks = [
       desc: 'This is a application built for the user side, used for viewing the cabins, booking cabins and also to view the cabins that have been booked by the user.',
       subdesc:
         'Developed with Next.JS , AuthNext.JS and TailwindCSS, using the SSR and SSG methods to optimize the webapp and also leveraged the power of aggresive chaching of the NextJS framework.',
-      href: 'https://resume-analyser-rouge.vercel.app/',
+      href: 'https://wild-oasis-user-green.vercel.app/',
       texture: '/textures/project/wild-user.mp4',
       logo: 'https://res.cloudinary.com/ddodvrq4x/image/upload/v1743070899/portfolio/assets/logo.png',
       logoStyle: {
