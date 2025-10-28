@@ -42,9 +42,9 @@ export const navLinks = [
       id: 3,
       name: 'Shiva Shristi',
       position: 'Market Research Analyst, HOD  - Sheekharr',
-      img: 'assets/review3.png',
+      img: 'assets/shivashristi.png',
       review:
-        'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+        'It has been a pleasure working with Sanket. He is a smart, enthusiastic, and dedicated professional who approaches every challenge with a positive attitude and a strong willingness to learn. Sanket quickly grasps new concepts and technologies, demonstrating an impressive ability to apply them effectively in real-world projects.His technical expertise spans across website development, full-stack development, and artificial intelligence, where he consistently delivers high-quality, reliable solutions. Sanket’s commitment to excellence, attention to detail, and problem-solving mindset make him a valuable asset to any team or project.',
     },
     // {
     //   id: 4,

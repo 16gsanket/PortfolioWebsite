@@ -12,7 +12,7 @@ function Clients() {
               <p className="text-white font-light">{review}</p>
               <div className="client-content">
                 <div className="flx gap-3">
-                  <img src={img} alt={name} />
+                  <img className="h-[200px]" src={img} alt={name} />
                   <div className="flex flex-col">
                     <p className="font-semibold text-white-800">{name}</p>
                     <p className="text-white-700 md:text-base text-sm font-light">
