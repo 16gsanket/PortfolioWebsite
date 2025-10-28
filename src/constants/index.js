@@ -38,14 +38,14 @@ export const navLinks = [
       review:
         "Sanket is a quick learner with a positive attitude and a strong problem-solving mindset. In just nine months, he mastered React.js and TypeScript, taking ownership of UI development for our website and platform. He also contributed to solution design by assisting with UML diagrams. His dedication and eagerness to take on challenges make him a valuable asset to any team.",
     },
-    // {
-    //   id: 3,
-    //   name: 'John Dohsas',
-    //   position: 'Project Manager at UrbanTech ',
-    //   img: 'assets/review3.png',
-    //   review:
-    //     'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    // },
+    {
+      id: 3,
+      name: 'Shiva Shristi',
+      position: 'Market Research Analyst, HOD  - Sheekharr',
+      img: 'assets/review3.png',
+      review:
+        'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+    },
     // {
     //   id: 4,
     //   name: 'Ether Smith',
@@ -295,20 +295,20 @@ export const navLinks = [
   };
   
   export const workExperiences = [
-    // {
-    //   id: 1,
-    //   name: 'Framer',
-    //   pos: 'Web Developer',
-    //   duration: '2022 - Present',
-    //   title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    //   icon: '/assets/framer.svg',
-    //   animation: 'victory',
-    // },
+    {
+      id: 1,
+      name: 'Sheekharr',
+      pos: 'Full Stack Developer,  Mumbai ( IN )',
+      duration: '2025 April - 2025 October',
+      title: "Engineered internal Sales-Accounts-Dispatch-Inventory Platform using NextJS, ShadCN,AWS . Implemented N8N workflows integrated with A.I. to automat the client-staff communication.Collabrating with the departmental stake holders to define credit,order and dispatch flows with multi-level authorization.",
+      icon: '/assets/sheekharr.jpg',
+      animation: 'victory',
+    },
     {
       id: 2,
       name: 'Smacoteq',
-      pos: 'Front End Developer',
-      duration: '2024 May - 2024 Dec',
+      pos: 'Front End Developer , France ( Paris )',
+      duration: '2024 May - 2025 March',
       title: "Revamped the Smacoteq Platform, boosting user engagement by 33% and cutting load times by 2.5s through optimization and SEO. Implemented multilingual support for 21 languages, enhancing accessibility for 10,000+ users. Designed UML and data flow diagrams to streamline backend logic and prototyped blockchain-based trade finance features using Solidity.",
       icon: '/assets/SmacoteqLogo.svg',
       animation: 'clapping',
@@ -316,7 +316,7 @@ export const navLinks = [
     {
       id: 3,
       name: 'Fly Fashion',
-      pos: 'Web Developer',
+      pos: 'Web Developer, Mumbai ( IN )',
       duration: '2023',
       title: "I modernized a legacy business from the 1980s by designing and developing a dynamic UI-driven website. Utilizing GSAP, ScrollTrigger, and Locomotive.js with plain HTML, CSS, and JavaScript, I transformed its digital presence, enhancing user experience with smooth animations and seamless interactions.",
       icon: '/assets/fly.png',
